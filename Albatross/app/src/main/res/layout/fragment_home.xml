@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blueskies"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+        android:text="Albatros Insurance Administrators"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvfuneral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:text="Funeral Products"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="369dp"
+        android:layout_height="319dp"
+        android:background="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="11dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/find"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:background="@android:color/background_light"
+        android:text="Find a broker"
+        android:textColor="@color/colorPrimaryDark" />
+</LinearLayout>

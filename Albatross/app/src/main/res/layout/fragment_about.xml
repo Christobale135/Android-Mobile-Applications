@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blueskies"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="422dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:color/background_dark"
+        android:text="Albatros Insurance Administrators"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:text="About"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+</LinearLayout>

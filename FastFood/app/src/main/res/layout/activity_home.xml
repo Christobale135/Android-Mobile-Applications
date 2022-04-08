@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Home Page"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <TextView
+        android:id="@+id/tvSspace2"
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:background="@android:color/holo_green_light" />
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@android:color/holo_orange_light"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Order Food"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Logout"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvSspace"
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:background="@android:color/holo_green_light" />
+
+</LinearLayout>

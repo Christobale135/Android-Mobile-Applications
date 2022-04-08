@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Forgot">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blueskies"
+        android:orientation="vertical"
+        tools:context=".Welcome">
+
+        <TextView
+            android:id="@+id/tvSpace10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/tvSpace"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Step One"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvSpace1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Please enter your 13-digit South"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvUltimate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="African ID number. A one-time pin will"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvSpace2"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="be sent to the contact details we have"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="on record for you."
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvSpace3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="301dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="30dp"
+            android:ems="10"
+            android:hint="Your 13-digit ID number"
+            android:textColorHint="@android:color/darker_gray"
+            android:inputType="textPassword"
+            android:textColor="@android:color/background_light"
+            tools:background="@android:color/background_light" />
+
+        <TextView
+            android:id="@+id/tvSpace4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnForgot"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginLeft="250dp"
+            android:background="@android:color/transparent"
+            android:text="REQUEST OTP"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvSpace5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvSpace6"
+            android:layout_width="match_parent"
+            android:layout_height="158dp" />
+
+        <TextView
+            android:id="@+id/tvSpace8"
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:background="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/tvAccept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_dark"
+            android:text="                     By using this app, you accept our"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_dark"
+            android:text="                               terms and conditions"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_dark" />
+
+    </LinearLayout>
+</LinearLayout>
